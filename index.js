@@ -9,13 +9,27 @@ const questions = [
         type: "input",
         message: "Please provide a title for your application (*required):",
         name: "title",
-        validate: (input) => input ? true : console.log("Please enter a title")
+        validate: (input) => {
+            if(input) {
+                return true;
+            } else {
+                console.log("Please enter a title");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         message: "Please provide a description for your application (*required):",
         name: "description",
-        validate: (input) => input ? true : console.log("Please enter a description")
+        validate: (input) => {
+            if(input) {
+                return true;
+            } else {
+                console.log("Please enter a description");
+                return false;
+            }
+        }
     },
     {
         type: "input",
@@ -51,13 +65,27 @@ const questions = [
         type: "input",
         message: "Please provide your GitHub username (*required):",
         name: "github",
-        validate: (input) => input ? true : console.log("Please enter your Github profile name"),
+        validate: (input) => {
+            if(input) {
+                return true;
+            } else {
+                console.log("Please enter your Github profile name");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         message: "Please provide a preferred email address (*required):",
         name: "email",
-        validate: (input) => input ? true : console.log("Please enter your email address"),
+        validate: (input) => {
+            if(input) {
+                return true;
+            } else {
+                console.log("Please enter your email address");
+                return false;
+            }
+        }
     },
 ];
 
