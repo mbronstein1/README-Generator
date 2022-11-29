@@ -1,4 +1,4 @@
-# README GENERATOR CHALLENGE 9
+# README GENERATOR
 
 ## Description
 This is the ninth challenge in the Northwestern Coding Bootcamp (Module 9). We were expected to create a generator for a professional README so a user could pass information through the CLI and render a professional README.md file with a title, table of contents, description, installation tips, usage tips, contribution how-to, licenses (if wanted), testing recommendations, and questions section. We also needed to render a badge for the chosen license at the top of the page.
